@@ -4,7 +4,7 @@ CC = c++
 CXXFLAGS = -std=c++98 -Wall -Wextra -Werror -I./
 LDFLAGS =
 
-SRC = main.cpp Animal.cpp Cat.cpp Dog.cpp
+SRC = main.cpp Animal.cpp Cat.cpp Dog.cpp WrongAnimal.cpp WrongAnimal.hpp
 OBJ = $(SRC:.cpp=.o)
 
 all: $(NAME)
