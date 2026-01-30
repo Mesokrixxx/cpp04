@@ -18,7 +18,7 @@ Dog& Dog::operator=(const Dog& other) {
 }
 
 Dog::~Dog() {
-	std::cout << "(Dog) Deconstructor called" << std::endl;
+	std::cout << "(Dog) Destructor called" << std::endl;
 }
 
 void Dog::makeSound() const {

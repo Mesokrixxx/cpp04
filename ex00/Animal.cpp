@@ -22,7 +22,7 @@ Animal& Animal::operator=(const Animal& other) {
 }
 
 Animal::~Animal() {
-	std::cout << "(Animal) Deconstructor called" << std::endl;
+	std::cout << "(Animal) Destructor called" << std::endl;
 }
 
 void Animal::makeSound() const {
